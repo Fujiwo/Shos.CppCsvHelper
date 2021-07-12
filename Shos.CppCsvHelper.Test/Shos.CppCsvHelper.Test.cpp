@@ -64,7 +64,7 @@ public:
             stopwatch watch;
             function<Foo(const vector<wstring>&)> toTuple =
                 [](const vector<wstring>& csvTexts) {
-                assert(csvTexts.size() == 5);
+                assert(csvTexts.size() == 6);
                 auto m1 = stoi(csvTexts[0]);
                 auto m2 = csvTexts[1];
                 auto m3 = stod(csvTexts[2]);
